@@ -1,9 +1,8 @@
 name: Infra tests
 on:
-  pull_request:
-    paths:
-      - 'infra/**'
-      - '.github/workflows/**'
+  push:
+    branches:
+    - master
 #yes
 jobs:
   build:
