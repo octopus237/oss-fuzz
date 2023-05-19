@@ -2,7 +2,7 @@ name: Infra tests
 on:
   push:
     branches:
-      - master
+      - main
 #yes
 jobs:
   build:
